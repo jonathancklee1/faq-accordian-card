@@ -1,6 +1,6 @@
 # faq-accordian-card
 
-13th challenge on Frontend Mentor
+###13th challenge on Frontend Mentor
 
 The challenge
 
