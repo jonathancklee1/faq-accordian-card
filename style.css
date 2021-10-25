@@ -114,6 +114,10 @@ Global classes
 .question-title {
   display: flex;
   justify-content: space-between;
+  cursor: pointer;
+}
+.question-title:hover {
+  color: var(--clr-primary-2);
 }
 .question {
   border-bottom: 1px solid var(--clr-dividers);
@@ -126,17 +130,22 @@ Global classes
   background: transparent;
   border-style: none;
   cursor: pointer;
+  transition: var(--transition);
 }
 .answer {
   margin-top: 1em;
   overflow: hidden;
   display: none;
+  transition: var(--transition);
 }
 .show-text .answer {
   display: block;
 }
-.bold {
+.show-text .question-text {
   font-weight: bold;
+}
+.show-text .question-btn {
+  transform: scaleY(-1);
 }
 
 @media screen and (min-width: 700px) {
@@ -155,7 +164,7 @@ Global classes
 
     flex-direction: row;
     padding: 6em;
-    overflow: hidden;
+    /* overflow: hidden; */
     position: relative;
   }
   .content {
@@ -169,11 +178,11 @@ Global classes
     padding-left: 0;
   }
   /* Box */
-  .card::before {
+  /* .card::before {
     content: url(./images/illustration-box-desktop.svg);
     position: absolute;
     left: -8em;
     bottom: 10em;
     z-index: 999;
-  }
+  } */
 }
