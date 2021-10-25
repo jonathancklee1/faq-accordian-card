@@ -1,6 +1,9 @@
 # faq-accordian-card
 
-###13th challenge on Frontend Mentor
+### 13th challenge on Frontend Mentor
+
+Live site: https://jonathancklee1.github.io/faq-accordian-card/
+
 
 The challenge
 
